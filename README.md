@@ -1,21 +1,50 @@
-
-#  Hospital Readmission Predictor
+# 🏥 Hospital Readmission Predictor
 
 This project uses a logistic regression machine learning model to predict patient readmission risk based on electronic health record (EHR) data.
 
-##  Features
+---
+
+## ✨ Features
+
 - Logistic Regression model with feature scaling
 - Class balancing using `class_weight='balanced'`
 - Performance metrics: precision, recall, F1-score, ROC AUC
-- Patient-level prediction function
+- Patient-level prediction function with example output
 
-## 📊 Technologies
+---
+
+## 🧰 Technologies
+
 - Python
 - pandas, scikit-learn
-- Google Colab / Jupyter
+- Google Colab / Jupyter or any Python environment
 
-##  Files
-- `readmission_model.ipynb`: Main notebook (data loading, preprocessing, model training & evaluation)
+---
 
-##  Use Case
-This model could be used by hospitals to identify high-risk patients before discharge and reduce avoidable readmissions.
+## 📁 Files
+
+- `readmission_predictor.py`: Main script (data loading, preprocessing, model training & evaluation)
+
+---
+
+## 📌 Use Case
+
+This model could be used by hospitals to identify high-risk patients before discharge and reduce avoidable readmissions through targeted interventions.
+
+---
+
+## 📂 Dataset
+
+The training data used for this project is from the publicly available Kaggle dataset:  
+**[Hospital Readmissions | by Dan Becker](https://www.kaggle.com/datasets/dansbecker/hospital-readmissions/data)**
+
+### 🔄 To run the model locally:
+1. Download the dataset from Kaggle (you may need to log in)
+2. Extract the ZIP file
+3. Place the file named `train.csv` in a folder called `data_folder/`
+
+Your project structure should look like:
+
+hospital-readmission-predictor/ ├── readmission_predictor.py ├── data_folder/ │ └── train.csv
+
+
