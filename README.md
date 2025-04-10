@@ -42,8 +42,9 @@ The training data used for this project is from the publicly available Kaggle da
 1. Download the dataset from Kaggle (you may need to log in)
 2. Extract the ZIP file
 3. Place the file named `train.csv` in a folder called `data_folder/`
+4. Run `readmission_predictor.py` in your terminal or Jupyter Notebook
 
-Your project structure should look like:
+Your project structure should look like this:
 
 hospital-readmission-predictor/ ├── readmission_predictor.py ├── data_folder/ │ └── train.csv
 
