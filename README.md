@@ -51,4 +51,20 @@ hospital-readmission-predictor/ ├── readmission_predictor.py ├── dat
 Results
 ![image](https://github.com/user-attachments/assets/badb9609-13f6-42b7-990b-a1e5e1c0b6b5)
 
+The classification report summarizes the model's performance on a test dataset of 5,000 patient records. Here's a breakdown:
+
+- **Precision**: Of the patients the model predicted as readmitted (`class 1`), 59% were actually readmitted.
+- **Recall**: The model correctly identified 55% of all actual readmitted patients, and 69% of non-readmitted patients.
+- **F1-score**: The harmonic mean of precision and recall — 0.57 for readmitted patients and 0.67 for non-readmitted.
+- **Accuracy**: 62% overall accuracy across both classes.
+- **ROC AUC Score**: `0.667` indicates a moderate ability to distinguish between readmitted and non-readmitted patients.
+
+The confusion matrix shows:
+- **1,872 true negatives** (not readmitted, predicted correctly)
+- **1,027 true positives** (readmitted, predicted correctly)
+- **859 false positives** (predicted readmitted, but weren't)
+- **1,242 false negatives** (missed readmitted patients)
+
+This output supports the use of this model for clinical triage or early-warning systems to reduce unnecessary readmissions through intervention strategies.
+
 
