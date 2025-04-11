@@ -48,4 +48,7 @@ Your project structure should look like this:
 
 hospital-readmission-predictor/ ├── readmission_predictor.py ├── data_folder/ │ └── train.csv
 
+Results
+![image](https://github.com/user-attachments/assets/badb9609-13f6-42b7-990b-a1e5e1c0b6b5)
+
 
